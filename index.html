@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesan Makanan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍜 Warung Online</h1>
+    <a href="admin.html">Masuk sebagai Pemilik →</a>
+  </header>
+
+  <div class="container">
+    <h2 style="margin-bottom:12px;">Menu</h2>
+    <div id="menu-list"><div class="empty">Memuat menu...</div></div>
+
+    <h2 style="margin:24px 0 12px;">Pesananmu</h2>
+    <div id="cart-list"><div class="empty">Belum ada pesanan.</div></div>
+    <div style="margin-top:12px;">
+      <button id="btn-pesan" disabled>Pesan Sekarang (Rp 0)</button>
+    </div>
+  </div>
+
+  <script type="module" src="pembeli.js"></script>
+</body>
+</html>
